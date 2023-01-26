@@ -25,4 +25,6 @@ class Root
 
 }
 
-// note return type and arg type should be same
+// note : return type and arg type should be same
+
+// note : static dia method define korle direct access kora jabe, public dia korle ukto class er instance banaiya then use korte hobe
