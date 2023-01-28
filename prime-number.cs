@@ -1,5 +1,31 @@
 using System;
 
+// main
+class Root
+{
+    static void Main(string[] args)
+    {
+        int temp;
+
+        for (int n = 1; n <= 100; n++)
+        {
+            temp = 0;
+
+            for (int i = 2; i <= n / 2; i++)
+            {
+                if (n % i == 0)
+                {
+                    temp++;
+                    break;
+                }
+            }
+
+            if (temp == 0 && n != 1) Console.WriteLine(n);
+        }
+    }
+}
+
+// complex
 class Root
 {
     static void Main(string[] args)
